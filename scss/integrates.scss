@@ -1,0 +1,137 @@
+.integrates {
+ padding: 115px 0;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        max-width: 370px;
+    }
+
+   &__title {
+        max-width: 338px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FFFFFF;
+    }
+
+   &__subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: #E0E0E0;
+        margin: 20px 0 40px;
+    }
+
+   &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #E0E0E0;
+    }
+
+    &__btn {
+        margin-top: 30px; 
+    }
+    
+    &__btn a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 20px;
+        background: #2A2A2A;
+        transition: all 0.3s;
+        color: #E0E0E0;
+        
+        &:hover {
+          background: #FFFFFF;
+          color: #666666;
+          font-weight: 500;
+        }
+    }
+
+    &__files a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #666666;
+        margin-left: 32px;
+        padding: 7px 11px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+        
+        &:hover {
+            color: #FFFFFF;
+            background: #666666 ;
+        }
+    }
+
+    &__right {
+        max-width: 602px;
+    }
+    
+    &__info {
+        margin-top: 16px;
+        border: 2px solid #666666;
+    }
+
+    &__box {
+        padding: 32px 120px 100px 32px;
+    }
+    
+    &__suptitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    &__avatars {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #666666;
+        margin-top: 16px;
+    }
+}
+
+@media(max-width:991px) {
+    .integrates {
+    padding: 80px 0;
+
+        &__row {
+            justify-content: space-around;
+            text-align: center;
+        }
+        
+        
+        &__right {
+            display: none;
+        }
+    }
+}
+
+@media(max-width:767px) {
+    .integrates {
+       padding: 80px 0 50px;
+
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+.integrates {
+  padding: 115px 0;
+}
+.integrates__row {
+  display: flex;
+  justify-content: space-between;
+}
+.integrates__left {
+  max-width: 370px;
+}
+.integrates__title {
+  max-width: 338px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+.integrates__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #E0E0E0;
+  margin: 20px 0 40px;
+}
+.integrates__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #E0E0E0;
+}
+.integrates__btn {
+  margin-top: 30px;
+}
+.integrates__btn a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 10px 20px;
+  background: #2A2A2A;
+  transition: all 0.3s;
+  color: #E0E0E0;
+}
+.integrates__btn a:hover {
+  background: #FFFFFF;
+  color: #666666;
+  font-weight: 500;
+}
+.integrates__files a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #666666;
+  margin-left: 32px;
+  padding: 7px 11px;
+}
+.integrates__files a:first-child {
+  margin-left: 0;
+}
+.integrates__files a:hover {
+  color: #FFFFFF;
+  background: #666666;
+}
+.integrates__right {
+  max-width: 602px;
+}
+.integrates__info {
+  margin-top: 16px;
+  border: 2px solid #666666;
+}
+.integrates__box {
+  padding: 32px 120px 100px 32px;
+}
+.integrates__suptitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.integrates__avatars {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666666;
+  margin-top: 16px;
+}
+
+@media (max-width: 991px) {
+  .integrates {
+    padding: 80px 0;
+  }
+  .integrates__row {
+    justify-content: space-around;
+    text-align: center;
+  }
+  .integrates__right {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .integrates {
+    padding: 80px 0 50px;
+  }
+  .integrates__title {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=integrates.css.map */

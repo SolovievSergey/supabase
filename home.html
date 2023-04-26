@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>supabase</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__menu">
+                <a class="header__logo" href="#">
+                    <img src="logo/Rectangle.svg" alt="supabase">
+                </a>
+                <div class="header__product">   
+                    <a class="header__list" title="Product" href="#">Product</a>
+                    <a class="header__list" title="Developers" href="#">Developers</a>
+                    <a class="header__list" title="Beta" href="#">Beta</a>
+                    <a class="header__list" title="Pricing" href="#">Pricing</a>
+                </div> 
+            </div>
+            <div class="header__account">
+                <a class="header__info-start" title="Start your project" href="#">Start your project</a>
+                <a class="header__info" title="Sign in" href="#">Sign in</a>
+            </div>
+        </div>
+    </div>
+</header>    
+
+<main>
+    <section class="home">
+        <div class="container-body">
+            <div class="store">
+                <div class="store__left">
+                    <div class="store__span">    
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 6C0 2.68629 2.68629 0 6 0H26C29.3137 0 32 2.68629 32 6V26C32 29.3137 29.3137 32 26 32H6C2.68629 32 0 29.3137 0 26V6Z" fill="white"/>
+                        <path d="M9.375 12H21.625H9.375ZM9.375 12C8.91087 12 8.46575 11.8156 8.13756 11.4874C7.80937 11.1592 7.625 10.7141 7.625 10.25C7.625 9.78587 7.80937 9.34075 8.13756 9.01256C8.46575 8.68437 8.91087 8.5 9.375 8.5H21.625C22.0891 8.5 22.5342 8.68437 22.8624 9.01256C23.1906 9.34075 23.375 9.78587 23.375 10.25C23.375 10.7141 23.1906 11.1592 22.8624 11.4874C22.5342 11.8156 22.0891 12 21.625 12H9.375ZM9.375 12V20.75C9.375 21.2141 9.55937 21.6592 9.88756 21.9874C10.2158 22.3156 10.6609 22.5 11.125 22.5H19.875C20.3391 22.5 20.7842 22.3156 21.1124 21.9874C21.4406 21.6592 21.625 21.2141 21.625 20.75V12H9.375ZM13.75 15.5H17.25H13.75Z" fill="#6A6A6A"/>
+                        </svg>
+                        <span class="store__storage">Storage</span>
+                    </div> 
+                    <div class="store__title">
+                        <h1>Store and serve<br>any type of digital content</h1>  
+                    </div>
+                    <div class="store__subtitle">
+                        <p>An open source Object store service with unlimited scalability, for any file type.</p>
+                        <p>With custom policies and permissions that are familiar and easy to implement.</p>
+                    </div>
+                    <button class="store__button">
+                        <a class="store__btn" title="Start a project" href="#">Start a project</a>
+                    </button>
+                </div>
+                <div class="store__right">
+                    <img src="images/Rectangle.png" alt="acmegram">
+                </div>
+            </div>
+        </div>
+
+        <div class="stat">
+            <div class="container">
+                <div class="stat__row">
+                    <div class="stat__item">
+                        <img class="stat__img" src="logo/Frame 2.svg" alt="logo">
+                        <div class="stat__suptitle">Interoperable</div>
+                        <div class="stat__text">Integrates well with the rest of Supabase ecosystem, including Auth and Postgres.</div>
+                    </div>
+                    <div class="stat__item">
+                        <img class="stat__img" src="logo/Frame 3.svg" alt="logo">
+                        <div class="stat__suptitle">Lightning fast</div>
+                        <div class="stat__text">Thin API server layer that leverages Postgres' permissions and performance.</div>
+                    </div>
+                    <div class="stat__item">
+                        <img class="stat__img" src="logo/Frame 4.svg" alt="logo">
+                        <div class="stat__suptitle">Dependable</div>
+                        <div class="stat__text">Enterprise-level scalability and durability.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sleek">
+            <div class="container">
+                <div class="sleek__content">
+                    <div class="sleek__title">
+                        <h2>Sleek dashboard for managing your media</h2>    
+                    </div>
+                    <div class="sleek__subtitle">A complete Object Explorer so that any of your team can use.</div>
+                    <div class="sleek__text">Drag and drop uploading, moving objects, and multiple object selection. As easy as working on your desktop.</div>
+                </div>
+                <div class="sleek__row">
+                    <div class="sleek__files">
+                        <a href="#">File previews</a>
+                        <a href="#">Column view</a>
+                        <a href="#">List view</a>
+                        <a href="#">Multi select actions</a>
+                        <a href="#">Path navigator</a>
+                        <img class="sleek__img" src="images/Rectangle 2.png" alt="supabase">
+                    </div>
+                    <div class="sleek__info">
+                        <div class="sleek__info__suptitle">File previews</div>
+                        <div class="sleek__info__text">Preview any media type, including video and audio.</div>
+                        <div class="sleek__info__title">Check out our example app</div>
+                            <div class="sleek__item">
+                                <div class="sleek__item__title">Profile management example</div>
+                                <div class="sleek__item__text">Update a user account with public profile information, including uploading a profile image.</div>
+                                <div class="sleek__box">
+                                    <div class="sleek__box__title">Created by:</div>
+                                    <div class="sleek__logo">
+                                        <img src="images/Rectangle 3.png" alt="logo">
+                                    </div>
+                                    <div class="sleek__box__text">supabase</div>
+                                </div>
+                            </div>
+                        <div class="sleek__footer">
+                            <p class="sleek__footer__title">nextjs-ts-user-management</p>
+                            <img class="sleek__logotip" src="logo/Frame 5.svg" alt="deplay">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="simple">
+            <div class="container">
+                <div class="simple__row">
+                    <div class="simple__left">
+                        <div class="simple__title">
+                            <h3>Simple and convenient APIs</h3>    
+                        </div>
+                        <div class="simple__text">
+                            <p>Built from the ground-up for interoperable authentication.</p>
+                            <p>Fast and easy to implement using our powerful library clients.
+                            Asset optimization and image transformation coming soon!</p>
+                        </div>
+                        <div class="simple__body">
+                            <div class="simple__item">
+                                <img src="images/Frame 7.png" alt="info">
+                                <div class="simple__item__title">CDN integration</div>
+                                <div class="simple__item__text">Serve from the edge to reduce latency.</div>
+                                <button class="simple__item__btn">
+                                    <a title="Coming soon" href="">Coming soon</a>
+                                </button>
+                            </div>
+                            <div class="simple__item">
+                                <img src="images/Frame 6.png" alt="">
+                                <div class="simple__item__title">Auto transformation & optimisation</div>
+                                <div class="simple__item__text">Resize and compress your media before you serve it.</div>
+                                <button class="simple__item__btn">
+                                    <a title="Coming soon" href="">Coming soon</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simple__right">
+                        <div class="simple__files">
+                            <a href="#">Upload a file</a>
+                            <a href="#">Download a file</a>
+                            <a href="#">List files</a>
+                            <a href="#">Move and rename files</a>
+                            <a href="#">Delete files</a>
+                            <img class="simple__img" src="images/info.png" alt="supabase">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="simple__hr">
+        </div>
+    
+        <div class="integrates">
+            <div class="container">
+                <div class="integrates__row">
+                    <div class="integrates__left">
+                        <div class="integrates__title">
+                            <h3>Integrates natively with Supabase Auth</h3>    
+                        </div>     
+                        <div class="integrates__subtitle">Using Postgres Row Level Security to create Object access rules.</div>     
+                        <div class="integrates__text">Storage Authorization is built around Postgres so that you can use
+                        any combination of SQL, Postgres functions, and even your own
+                        metadata to write policies.</div>     
+                        <button class="integrates__btn">
+                            <a title="Expore documentation" href="#">Expore documentation</a>
+                        </button>
+                    </div>
+                    <div class="integrates__right">
+                        <div class="integrates__files">
+                            <a href="#">Public access to a bucket</a>
+                            <a href="#">Public access to a folder</a>
+                            <a href="#">Authenticated access to a bucket</a>
+                            <div class="integrates__info" >
+                                <img src="images/info 2.png" alt="info">
+                                <div class="integrates__box">   
+                                    <div class="integrates__suptitle">Allow public CRUD access to a bucket</div>
+                                    <div class="integrates__avatars">This will allow any user access to the bucket named 'avatars'</div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="build">
+            <div class="container">
+                <div class="build__body">
+                    <div class="build__title">Build in a weekend, <span class="build__span">scale to millions</span></div>
+                    <button class="build__btn">
+                        <a title="Start your project" href="#">Start your project</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<section class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__logo">
+                <img src="logo/logo.png" alt="logo">
+                <div class="footer__social">
+                    <a href="#"><svg class="footer__svg" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.29 17.251C13.837 17.251 17.965 10.998 17.965 5.57596C17.965 5.39796 17.965 5.22096 17.953 5.04596C18.7562 4.46448 19.4493 3.74457 20 2.91996C19.2511 3.25196 18.4566 3.46972 17.643 3.56596C18.4996 3.05302 19.1408 2.24631 19.447 1.29596C18.6417 1.77384 17.7607 2.11069 16.842 2.29196C16.2234 1.63372 15.405 1.19779 14.5136 1.05166C13.6222 0.905532 12.7075 1.05736 11.9111 1.48363C11.1147 1.9099 10.4811 2.58683 10.1083 3.40962C9.7355 4.2324 9.64437 5.15514 9.849 6.03496C8.21759 5.9532 6.6216 5.52928 5.16465 4.79073C3.70769 4.05217 2.42233 3.01548 1.392 1.74796C0.867318 2.65116 0.706589 3.72038 0.942536 4.73792C1.17848 5.75547 1.79337 6.64483 2.662 7.22496C2.00926 7.20606 1.37063 7.03046 0.8 6.71296V6.76496C0.800389 7.71225 1.1284 8.63026 1.7284 9.36331C2.3284 10.0964 3.16347 10.5993 4.092 10.787C3.48781 10.9517 2.85389 10.9756 2.239 10.857C2.50116 11.6724 3.01168 12.3856 3.69913 12.8966C4.38658 13.4076 5.21657 13.6909 6.073 13.707C5.22212 14.3755 4.24779 14.8698 3.20573 15.1615C2.16367 15.4532 1.07432 15.5366 0 15.407C1.8766 16.6113 4.06019 17.2501 6.29 17.247" fill="#A1A1A1"/>
+                    </svg></a>
+                    <a href="#"><svg class="footer__svg--icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017C0 14.442 2.865 18.197 6.839 19.521C7.339 19.613 7.521 19.304 7.521 19.038C7.521 18.801 7.513 18.17 7.508 17.335C4.726 17.94 4.139 15.992 4.139 15.992C3.685 14.834 3.029 14.526 3.029 14.526C2.121 13.906 3.098 13.918 3.098 13.918C4.101 13.988 4.629 14.95 4.629 14.95C5.521 16.48 6.97 16.038 7.539 15.782C7.631 15.135 7.889 14.694 8.175 14.444C5.955 14.191 3.62 13.331 3.62 9.493C3.62 8.4 4.01 7.505 4.649 6.805C4.546 6.552 4.203 5.533 4.747 4.155C4.747 4.155 5.587 3.885 7.497 5.181C8.31277 4.95851 9.15444 4.84519 10 4.844C10.85 4.848 11.705 4.959 12.504 5.181C14.413 3.885 15.251 4.154 15.251 4.154C15.797 5.533 15.453 6.552 15.351 6.805C15.991 7.505 16.379 8.4 16.379 9.493C16.379 13.341 14.04 14.188 11.813 14.436C12.172 14.745 12.491 15.356 12.491 16.291C12.491 17.629 12.479 18.71 12.479 19.038C12.479 19.306 12.659 19.618 13.167 19.52C15.1583 18.8521 16.8893 17.5753 18.1155 15.87C19.3416 14.1648 20.0009 12.1173 20 10.017C20 4.484 15.522 0 10 0Z" fill="#A1A1A1"/>
+                    </svg></a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="footer__item">
+                    <a class="footer__link--first" href="#">Product</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Database</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Authentication</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Storage</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Functions</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Coming soon</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Pricing</a>
+                </div>    
+            </div>
+            <div class="footer__col">
+                <div class="footer__item--first">
+                    <a class="footer__link--first" href="#">Resources</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Support</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Case Studies</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">System Status</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Terms of service</a>
+                </div>    
+            </div>
+            <div class="footer__col">
+                <div class="footer__item--first">
+                    <a class="footer__link--first" href="#">Developers</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Documentation</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">API Reference</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Guides</a>
+                </div> 
+            </div>
+            <div class="footer__col">
+                <div class="footer__item--first">
+                    <a class="footer__link--first" href="#">Company</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Blog</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Open Source</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Humans.txt</a>
+                </div>    
+                <div class="footer__item">
+                    <a class="footer__link" href="#">Lawyers.txt</a>
+                </div>
+            </div>
+        </div>
+    
+        <hr class="footer__hr">
+    
+        <div class="footer__inform">
+            <div>
+                <a class="footer__inform__link" title="Supabase Inc" href="#">© Supabase Inc</a>
+            </div>
+            <div class="footer__weather">
+                <img class="footer__sun" src="logo/sun.svg" alt="logo">
+                <img class="footer__switch" src="logo/switch.svg" alt="logo">
+                <img class="footer__month" src="logo/month.svg" alt="logo">
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import 'header';
+@import 'home';
+@import 'stat';
+@import 'sleek';
+@import 'simple';
+@import 'integrates';
+@import 'build';
+@import 'footer';
+
+
+body {
+  background:  #181818;
+  font-weight: 400;  
+}
+
+.container {
+  max-width: 1120px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.container-body {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}

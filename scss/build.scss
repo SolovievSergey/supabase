@@ -1,0 +1,75 @@
+.build {
+ padding: 100px 0 110px;
+
+
+    &__body {
+        text-align: center;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        color: #BBBBBB;
+    }
+ 
+    &__span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        color: #ffffff;
+    }
+
+    &__btn {
+        margin-top: 48px;
+    }
+
+    &__btn a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px; 
+        color: #FFFFFF;
+        background: #24B47E;
+        padding: 9px 17px;
+        border-radius: 4px;
+        transition: all 0,8s;
+        
+        &:hover {
+           background: #ffffff;
+           color: #24B47E;
+        }
+    }
+}
+
+@media(max-width:991px) {
+    .build {
+    padding: 50px 0;
+
+        &__title {
+            font-size: 35px;
+        }
+    
+        &__span {
+            font-size: 35px;
+        }
+    }
+}
+
+@media(max-width:767px) {
+    .build {
+
+
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        &__span {
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+}

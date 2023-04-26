@@ -1,0 +1,62 @@
+.build {
+  padding: 100px 0 110px;
+}
+.build__body {
+  text-align: center;
+}
+.build__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #BBBBBB;
+}
+.build__span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+}
+.build__btn {
+  margin-top: 48px;
+}
+.build__btn a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #24B47E;
+  padding: 9px 17px;
+  border-radius: 4px;
+  transition: all 0, 8s;
+}
+.build__btn a:hover {
+  background: #ffffff;
+  color: #24B47E;
+}
+
+@media (max-width: 991px) {
+  .build {
+    padding: 50px 0;
+  }
+  .build__title {
+    font-size: 35px;
+  }
+  .build__span {
+    font-size: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .build__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .build__span {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+/*# sourceMappingURL=build.css.map */
